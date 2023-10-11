@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    
+}
+
+body{
+    background-color: #2f1893;
+}
+
+header{
+    height: 22vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background: red; */
+}
+
+header>nav{
+    height: 100%;
+    width: 80%;
+    gap: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+header>nav>.logo{
+    font-weight: 600;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+header>nav>.navbar>ol{
+    display: flex;
+    list-style: none;
+}
+header>nav>.navbar>ol>li{
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header>nav>.navbar>ol>li:first-child{
+    color: #6959b1;
+}
+header>nav>.navbar>ol>li:last-child{
+    background-color: #e93a7d;
+    border-radius: 24px;
+}
+
+#home{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    padding: 0 69px;
+    /* background: yellow; */
+}
+
+#home>.about{
+    height: 100vh;
+    width: 50%;
+    padding: 70px 97px 70px 70px;
+    color: white;
+    font-family: sans-serif;
+    /* background: green; */
+}
+
+
+#home>.about>h1{
+    font-size: 63px;
+    line-height: 72px;
+}
+
+#home>.about>pre{
+    font-size: 24px;
+    margin: 44px 0;
+}
+
+#home>.about>button{
+    padding: 14px 31px;
+    font-size: 23px;    
+    border-radius: 24px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #e93a7d;
+}
+
+#home>.page{
+    height: 100vh;
+    width: 50%;
+    margin-top: 24px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #ffff;
+}
+#home>.page>h1{
+    font-size: 48px;
+    margin: 50px 0 22px;
+    color: #1e0e62;
+}
+#home>.page>input{
+    height: 63px;
+    width: 67%;
+    padding-left: 29px;
+    font-size: 21px;
+    border-radius: 40px;
+    margin: 14px 0;
+    border: 2px solid #d3d3d34d;
+}
+
+#home>.page>.checkbox{
+    gap: 17px;
+    display: flex;
+    justify-content: flex-start;
+    width: 65%;
+    font-size: 18px;
+    color: darkgrey;
+}
+#home>.page>.checkbox>input{
+    width: 21px;
+}
+
+#home>.page>button{
+    margin-top: 23px;
+    font-size: 20px;
+    padding: 18px;
+    width: 65%;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #482be7;
+}
+
+#home>.page>p{
+    font-size: 21px;
+    color: lightgrey;
+    position: relative;
+    margin: 17px 0;
+}
+
+#home>.page>p::before{
+    background-color: lightgrey;
+    display: block;
+    width: 168px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    left: 38px;
+    top: 50%;
+}
+#home>.page>p::after{
+    background-color: lightgrey;
+    display: block;
+    width: 168px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    right: 38px;
+    top: 50%;
+}
+
+
+#home>.page>.button2>button{
+    font-size: 20px;
+    padding: 18px 115px;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #1da1f2;
+}
+
+#home>.page>h4{
+    font-size: 21px;
+    color: darkgrey;
+    line-height: 88px;
+    font-weight: 500;
+}
+
+#home>.page>h4>span{
+    color: #25dac5;
+    cursor: pointer;
+}
+
